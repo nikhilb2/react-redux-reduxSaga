@@ -1,8 +1,8 @@
 import { currentSession } from './auth/UserSession'
 
-const API_ROOT = 'http://zefiri.com/api'
-export const IMAGE_API_ROOT = 'http://zefiri.com/api'
-const IMAGE_UPLOAD_API_ROOT = `http://zefiri.com/api/upload.php`
+const API_ROOT = 'http://zefiri.com/chair-api'
+export const IMAGE_API_ROOT = 'http://zefiri.com/chair-api'
+const IMAGE_UPLOAD_API_ROOT = `http://zefiri.com/chair-api/upload.php`
 const dev = true;
 function parseJSON(response) {
   //console.log(response);
